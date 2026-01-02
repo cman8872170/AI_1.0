@@ -9,6 +9,7 @@ from dotenv import load_dotenv
 # ==========================================
 # 1. 設定區 (請換上新的 Key!) 第一版
 # ==========================================
+# ===
 
 # ⚠️ 請填入你 "新申請" 的 OpenAI API Key
 API_KEY = os.getenv("openAI_API_KEY")
