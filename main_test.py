@@ -3,13 +3,15 @@ import pandas as pd
 from sqlalchemy import create_engine, text
 from openai import OpenAI
 import plotly.express as px
+import os
+from dotenv import load_dotenv
 
 # ==========================================
 # 1. 設定區 (請換上新的 Key!)
 # ==========================================
 
 # ⚠️ 請填入你 "新申請" 的 OpenAI API Key
-API_KEY = "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" 
+API_KEY = os.getenv("openAI_API_KEY")
 
 # 資料庫連線設定
 DB_USER = "ss469"
