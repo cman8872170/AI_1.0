@@ -14,10 +14,10 @@ from dotenv import load_dotenv
 API_KEY = os.getenv("openAI_API_KEY")
 
 # 資料庫連線設定
-DB_USER = "ss469"
-DB_PASS = "ir9481"
-DB_HOST = "203.64.37.61"
-DB_NAME = "IRstdb"
+DB_USER = os.getenv("DB_USER")
+DB_PASS = os.getenv("DB_PASS")
+DB_HOST = os.getenv("DB_HOST")
+DB_NAME = os.getenv("DB_NAME")
 
 # 連線字串 (加上 TrustServerCertificate=yes 以通過 SSL 驗證)
 CONN_STR = f"mssql+pyodbc://{DB_USER}:{DB_PASS}@{DB_HOST}/{DB_NAME}?driver=ODBC+Driver+18+for+SQL+Server&TrustServerCertificate=yes"
