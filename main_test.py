@@ -9,7 +9,7 @@ import plotly.express as px
 # ==========================================
 
 # ⚠️ 請填入你 "新申請" 的 OpenAI API Key
-API_KEY = "請填入你的Key" 
+API_KEY = "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" 
 
 # 資料庫連線設定
 DB_USER = "ss469"

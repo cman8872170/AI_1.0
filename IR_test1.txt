@@ -1,3 +1,2 @@
 # OpenAI API Key (IR_test1)
-OPENAI_API_KEY="請填入你的Key"
 OPENAI_API_KEY="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"
